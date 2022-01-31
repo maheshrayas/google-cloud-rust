@@ -22,10 +22,11 @@ pub(crate) mod iam;
 pub(crate) mod rpc;
 pub(crate) mod r#type;
 
-pub mod empty;
 pub mod api;
 pub mod bigtable;
 pub mod cloud;
+pub mod container;
+pub mod empty;
 pub mod logging;
 pub mod longrunning;
 pub mod pubsub;

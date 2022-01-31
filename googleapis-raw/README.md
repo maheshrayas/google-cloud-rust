@@ -96,6 +96,13 @@ Remember to update the dependent submodules by calling
 modules to be dropped or new modules to be added. Ensure that the
 various `mod.rs` files capture these changes.
 
+### Install Google GRPC root pem
+
+```bash
+curl -Lo roots.pem https://pki.google.com/roots.pem   
+export GRPC_DEFAULT_SSL_ROOTS_FILE_PATH="$PWD/roots.pem"
+```
+
 ## Google Cloud Console
 
 Links to Google Cloud Console for our testing environment:

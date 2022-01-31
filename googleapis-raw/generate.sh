@@ -77,6 +77,7 @@ api/servicemanagement/v1
 cloud/asset/v1
 cloud/orgpolicy/v1
 cloud/osconfig/v1
+container/v1
 logging
 logging/type
 type

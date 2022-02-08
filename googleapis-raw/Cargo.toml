@@ -30,8 +30,8 @@ exclude = ["grpc"]
 
 [dependencies]
 futures = "0.3.5"
-#grpcio = "0.9.1"
-grpcio = { git = "https://github.com/maheshrayas/grpc-rs", rev= "5c14ec17646b0836815f8bfe11a8b44fa03c9b93"}
+grpcio = "0.9.1"
+#grpcio = { git = "https://github.com/maheshrayas/grpc-rs", rev= "5c14ec17646b0836815f8bfe11a8b44fa03c9b93"}
 protobuf = "2.26"
 
 [dev-dependencies]
